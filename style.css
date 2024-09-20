@@ -21,9 +21,26 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.cor1{
+order: 1;
+align-self: flex-start;
+justify-self: flex-start;
+}
+
+.cor3{
+order: 2;
+justify-self: center;
+align-self: center;
+}
+
+.cor2{
+order: 3;
+align-self: flex-end;
 }
 
 .filho {
